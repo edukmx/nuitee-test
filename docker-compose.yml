@@ -9,7 +9,6 @@ services:
     command: /bin/bash /go/start.sh
     volumes:
       - .:/go
-      - ./config/supervisord.conf:/etc/supervisor/conf.d/supervisord.conf
       - ./config/start.sh:/go/start.sh
     ports:
       - "8080:8080"
