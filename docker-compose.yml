@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+  api:
+    container_name: api
+    security_opt:
+      - seccomp:unconfined
+    build: config
+    command: /bin/bash /go/start.sh
+    volumes:
+      - .:/go
+      - ./config/supervisord.conf:/etc/supervisor/conf.d/supervisord.conf
+      - ./config/start.sh:/go/start.sh
+    ports:
+      - "8080:8080"
+    environment:
+      - TZ=Europe/Madrid
+      - WORKDIR=/go

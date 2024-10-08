@@ -1,0 +1,76 @@
+{
+  "auditData": {
+    "processTime": "30",
+    "timestamp": "2024-10-08 15:00:52.104",
+    "requestHost": "93.176.157.167, 15.158.55.102, 10.214.142.78, 10.214.130.102",
+    "serverId": "ip-10-214-128-110.eu-central-1.compute.internal",
+    "environment": "[awseucentral1, awseucentral1c, ip_10_214_128_110, eucentral1, secret]",
+    "release": "",
+    "token": "06A0E97AD8154A86A1CE1490239164D3",
+    "internal": "0|E23A57F71A9448F172839965207405|UK|05|1|12||||||||||||1||1~1~2~0|0|0||0|db11033c50b5ed53ab7b815cb1b2eaee||||"
+  },
+  "hotels": {
+    "hotels": [
+      {
+        "code": 77,
+        "name": "Barcelo Illetas Albatros",
+        "exclusiveDeal": 3,
+        "categoryCode": "4EST",
+        "categoryName": "4 STARS",
+        "destinationCode": "PMI",
+        "destinationName": "Majorca",
+        "zoneCode": 89,
+        "zoneName": "Illetas",
+        "latitude": "39.54228600000000000000",
+        "longitude": "2.59554300000000000000",
+        "rooms": [
+          {
+            "code": "DBT.SU-VM",
+            "name": "Superior Sea Front",
+            "rates": [
+              {
+                "rateKey": "20250615|20250616|W|1|77|DBT.SU-VM|OPNRBBHBD|BB||1~2~0||N@07~~200111~-1106292271~N~~~NRF~~E23A57F71A9448F172839965207405AAUK0001000000000520bee",
+                "rateClass": "NRF",
+                "rateType": "BOOKABLE",
+                "net": "238.11",
+                "allotment": 10,
+                "rateCommentsId": "1|137863|0",
+                "paymentType": "AT_WEB",
+                "packaging": false,
+                "boardCode": "BB",
+                "boardName": "BED AND BREAKFAST",
+                "cancellationPolicies": [
+                  {
+                    "amount": "238.11",
+                    "from": "2024-10-07T23:59:00+02:00"
+                  }
+                ],
+                "taxes": {
+                  "taxes": [
+                    {
+                      "included": false,
+                      "amount": "6.60",
+                      "currency": "EUR",
+                      "clientAmount": "6.60",
+                      "clientCurrency": "EUR"
+                    }
+                  ],
+                  "allIncluded": false
+                },
+                "rooms": 1,
+                "adults": 2,
+                "children": 0
+              }
+            ]
+          }
+        ],
+        "minRate": "238.11",
+        "maxRate": "413.43",
+        "currency": "EUR"
+      }
+    ],
+    "checkIn": "2025-06-15",
+    "total": 1,
+    "checkOut": "2025-06-16"
+  }
+}
