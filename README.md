@@ -26,13 +26,19 @@ SERVER_PORT=:8080
 TIMEOUT=4
 ```
 
-3. Build and Run Docker
+3. Install deps
+```
+cd src
+make install
+```
+
+4. Build and Run Docker
 ```
 docker-compose build
 docker-compose up -d
 ```
 
-4. Accessing the API
+5. Accessing the API
 
 Once the containers are running, the application should be accessible at http://localhost:8080.
 
